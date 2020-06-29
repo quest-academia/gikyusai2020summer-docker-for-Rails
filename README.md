@@ -1,13 +1,13 @@
 # README
 
-#必要なファイル
+# 必要なファイル
 - Dockerfile
 - docker-compose.yml
 - Gemfile
 - Gemfile.lock
 リポジトリ内のファイルをそのまま使って下さい
 
-#Rails新規プロジェクト作成
+# Rails新規プロジェクト作成
 
 ターミナルで以下を実行
 
@@ -15,11 +15,11 @@
 docker-compose run app bundle exec rails new . --api --force --database=mysql --skip-bundle
 ```
 
-#database.rbの修正
+# database.rbの修正
 プロジェクトを作成すると、たくさんのファイルが自動生成される。
 そのうちの、database.ymlを以下のように修正する。
-
-```config/database.yml```
+### config/database.yml
+```
 
 ︙
 default: &default
