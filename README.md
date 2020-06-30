@@ -43,14 +43,14 @@ docker-compose run app bundle update
 ```
 を続けて実行
 
-#docker関係のコマンド
-docker-compose build コンテナをビルド。dockerのコンテナを新たに作る。
-docker-compose up コンテナを起動する
-docker-compose stop コンテナを一旦停止する
-docker-compose ps 作ったコンテナの状態を確認する
-docker-compose rm -v コンテナをすべて削除する
+# docker関係のコマンド
+- docker-compose build コンテナをビルド。dockerのコンテナを新たに作る。
+- docker-compose up コンテナを起動する
+- docker-compose stop コンテナを一旦停止する
+- docker-compose ps 作ったコンテナの状態を確認する
+- docker-compose rm -v コンテナをすべて削除する
 
-#その他メモ
+# その他メモ
 herokuでmysqlを使う場合、
 ```
 heroku addons:create jawsdb:kitefin
