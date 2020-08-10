@@ -50,6 +50,11 @@ docker-compose run app bundle update
 - docker-compose ps 作ったコンテナの状態を確認する
 - docker-compose rm -v コンテナをすべて削除する
 
+-※docker-compose up したターミナルとは別のウインドウ(またはタブ)で新たにターミナルを開くこと
+- docker-compose exec app bundle exec rails db:create データベースを作成する
+- docker-compose exec app bundle exec rails db:migrate データベースのマイグレーション
+- docker-compose exec app bundle exec rails db:migrate:reset データベースのリセット
+
 # その他メモ
 herokuでmysqlを使う場合、
 ```
